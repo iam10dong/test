@@ -1,0 +1,64 @@
+<!Doctype html>
+
+<html>
+
+     <head>
+
+          <title></title>
+
+          <!--한글 안깨지게-->
+             <meta charset="UTF-8">
+
+          <!--모바일 화면 맞춤 설정-->
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--CSS-->
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+
+          <!--부트스트랩 CDN-->
+             <!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+             <!-- Optional theme --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">       
+             <!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+          <!--jQuery CDN-->
+             <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+             <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+     </head>
+
+     <body>
+
+        <div style="text-align:center;">
+            <iframe width="600" height="500" src="https://www.youtube.com/embed/frEm8dftIoI" frameborder="0" allowfullscreen></iframe>
+             <br/><a href="https://test-iam10dong.c9users.io/back">내가 통과한다!</a>
+             
+             
+
+            <h2>1.멋사의 나이</h2>
+                <%= @number %>
+                <br/>
+                <br/><%= @one %>
+
+            <h2>2. 1번에 나이 2개 추가 후 나이 낮은 순으로 정렬</h2>
+                <%= @see %>
+                <br/>
+                <br/><%= @two %>
+ 
+ 
+<br/><script type="text/javascript"> //날짜 삽입
+        var d = new Date();
+        document.write(d.getFullYear()+'년 '+ (d.getMonth() + 1) +'월 '+ d.getDate() +'일 '+ d.getHour() + '시' + d.getMinute() + '분' + d.getSeconds()+'초')
+        document.write('<br />');
+    </script>
+ 
+ 
+ 
+                
+        </div>
+
+        
+
+
+     </body>
+
+</html>
